@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/33938235e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/Assets/favicon.ico" rel="shortcut icon" />
+    <title>Michi Ramen</title>
+  </head>
+  <body class="bg-[url('/Assets/texture_pattern_2X.jpg')]">
+    <!-- hero section -->
+    <div
+      class="bg-cover bg-center flex justify-center"
+      style="background-image: url('./Assets/wood.jpg')"
+    >
+      <img class="" src="/Assets/hero-image-2.png" alt="hero-img2" />
+    </div>
+    <p
+      class="flex justify-center text-center p-1 bg-[#D9333E] text-white md:text-lg tracking-widest"
+    >
+      DINE-IN AVAILABLE AT OUR SPICEWOOD SPRINGS LOCATION INSIDE ASIA MARKET
+    </p>
+    <main class="flex justify-center">
+      <div class="flex-col md:w-2/4">
+        <!-- div for img -->
+        <div class="flex justify-center">
+          <img
+            class="p-3 my-4 flex justify-center"
+            src="/Assets/logo_trans.gif"
+            alt="logo_trans"
+          />
+        </div>
+        <!-- main content -->
+        <div class="flex justify-center">
+          <div class="flex-col justify-center text-center">
+            <p class="text-lg font-semibold tracking-[.15em] text-[#433d3c]">
+              PLEASE SELECT YOUR STORE
+            </p>
+            <p class="text-[#808080] mx-5 text-sm">
+              Extra charge for remaking orders placed at wrong location
+            </p>
+            <div class="flex justify-center">
+              <div class="flex flex-col mx-4">
+                <select
+                  name="STORE"
+                  value="SELECT"
+                  id="STORE"
+                  class="focus:outline-none rounded p-2 mt-2 text-lg border border-slate-500"
+                >
+                  <option class="" value="/" selected disabled hidden>
+                    Select Store
+                  </option>
+                  <option value="ASIA MARKET">ASIA MARKET</option>
+                  <option value="North LAMAR">North LAMAR</option>
+                  <option value="SOUTH LAMAR">SOUTH LAMAR</option>
+                </select>
+                <button
+                  class="bg-[#F6AD49] p-2 rounded mt-2 text-white font-semibold tracking-wide"
+                >
+                  MENU / ORDER
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div class="mt-16">
+        <!-- ASIA MARKET -->
+        <div class="mx-5 text-gray-500 text-sm py-0">
+          <p id="location-name" class="text-[#433d3c] pb-3">ASIA MARKET</p>
+          <u>Address</u>
+          <p>
+            8650 Spicewood Springs Rd. #115 <br />
+            Austin, TX 78750 <br />
+            Barrington Oaks Center
+          </p>
+          <br />
+          <u>Phone Number</u>
+          <p>(512) 953-8143</p>
+          <br />
+          <u>Hours of Operation</u>
+          <p>
+            Sunday - Thursday <br />
+            11 am - 10 pm <br />
+            Friday & Saturday<br />
+            11 am - Midnight
+          </p>
+          <br />
+          <u>Services</u>
+          <p>
+            Dine-in <br />
+            Takeout <br />
+            3rd-party Delivery <br />
+          </p>
+        </div>
+        <br /><br />
+        <!-- SOUTH LAMAR -->
+        <div class="mx-5 text-gray-500 text-sm py-0">
+          <p id="location-name" class="text-[#433d3c] pb-3">SOUTH LAMAR</p>
+          <u>Address</u>
+          <p>
+            3005 South Lamar Blvd. D-114B <br />
+            Austin, TX 78704 <br />
+            Corners Shopping Center
+          </p>
+          <br />
+          <u>Phone Number</u>
+          <p>(512) 394-6350</p>
+          <br />
+          <u>Hours of Operation</u>
+          <p>
+            Open Daily<br />
+            11 am - 10 pm<br />
+          </p>
+          <br />
+          <u>Services</u>
+          <p>
+            Takeout <br />
+            3rd-party Delivery <br />
+          </p>
+        </div>
+        <br />
+        <!-- NORTH LAMAR -->
+        <div class="mx-5 text-gray-500 text-sm py-0">
+          <p id="location-name" class="text-[#433d3c] pb-3">NORTH LAMAR</p>
+          <u>Address</u>
+          <p>
+            6519 North Lamar Blvd. <br />
+            Austin, TX 78752
+          </p>
+          <br />
+          <u>Phone Number</u>
+          <p>(512) 386-1908</p>
+          <br /><u>Hours of Operation</u>
+          <p>
+            Sunday - Thursday <br />
+            11 am - 10 pm <br />
+            Friday & Saturday <br />
+            11 am - Midnight <br />
+          </p>
+          <br />
+          <u>Services</u>
+          <p>
+            Takeout <br />
+            3rd-party Delivery <br />
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="">
+      <div class="bg-[#433D3C] h-screen text-white text-center">
+        <div class="p-10">SOIAL MEDIA LOGOS</div>
+        <p class="mx-9">
+          Asia Market • Dine-in / Takeout / Delivery (512) 953-8143 • 8650
+          Spicewood Springs #115 78759
+        </p>
+        <br />
+        <p>
+          North Lamar • Takeout / Delivery (512) 386-1908 • 6519 North Lamar
+          78752
+        </p>
+        <br />
+        <p>
+          South Lamar • Takeout / Delivery (512) 394-6350 • 3005 South Lamar
+          D-114B 78704
+        </p>
+        <br /><br />
+        <br />
+        <div>
+          <p>
+            © 2022 Michi Ramen All Rights Reserved Website made with ❤ by ItsMeCedy
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      #location-name {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      #location-name p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
+    }
+  </style>
+</html>
