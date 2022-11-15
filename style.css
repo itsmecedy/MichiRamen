@@ -1,0 +1,36 @@
+#location-name {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#location-name p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+section u {
+  font-weight: 500;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #store-locations {
+    text-align: left;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #store-locations p,
+  u {
+    font-size: large;
+    color: #818181;
+  }
+  #location-name {
+    font-size: 1.6rem;
+  }
+}
